@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 
 const contact = () => {
   return (
@@ -88,4 +88,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default contact */
