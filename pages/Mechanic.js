@@ -20,7 +20,7 @@ const Mechanic = () => {
   if (!currentUser) {
     router.push("./Login");
   }
-  console.log(data);
+  // console.log(data);
   return (
     <div className=" ">
       <div className="item-center flex-wrap bg-neutral-700">

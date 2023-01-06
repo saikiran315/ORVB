@@ -88,7 +88,7 @@ export default function roadregister() {
     <>
       <Nav />
       <div className="flex  relative">
-        <Image src={h} className="w-full h-[135vh]"></Image>
+        <Image src={h} className="w-full h-[135vh]" alt=""></Image>
         <div className="m-auto bg-slate-50 rounded-md w-2/5 absolute inset-2">
           <div className="right flex flex-col justify-evenly ">
             <div className="text-center py-10">

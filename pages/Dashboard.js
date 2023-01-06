@@ -54,7 +54,7 @@ const Dashboard = () => {
   return (
     <>
       <div className=" relative">
-        <Image src={h} className="w-full h-[135vh]"></Image>
+        <Image src={h} className="w-full h-[135vh]" alt=""></Image>
         <div className="absolute inset-4">
           <div className="item-center flex-wrap ">
             <div className="lg:w-3/5 w-5/6 shadow-2xl m-auto bg-slate-200 text-black rounded-2xl">
@@ -67,13 +67,17 @@ const Dashboard = () => {
               <div className="p-4 md:p-12 text-center">
                 <div
                   className="rounded-full shadow-2xl mx-auto h-48 w-48 bg-cover"
-                  style={{ backgroundImage: `url(${user.photoURL})` }}
+                // style={{ backgroundImage: `url(${user.photoURL})` }}
                 >
-                  {/* <img
-                src={user.photoURL}
-                alt=""
-                className="rounded-full shadow-2xl  h-48 w-48 bg-cover"
-              /> */}
+                  <img
+                    src={user.photoURL}
+                    alt=""
+                    className="rounded-full h-48 w-48 shadow-2xl bg-cover"
+                    // width="192"
+                    // height="192"
+
+
+                  />
                 </div>
 
                 <h1 className="text-3xl font-bold p-6 uppercase">

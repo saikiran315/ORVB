@@ -38,7 +38,7 @@ const Login = () => {
     <>
       <Nav />
       <div className="flex h-screen relative">
-        <Image src={h} className="w-full h-screen"></Image>
+        <Image src={h} className="w-full h-screen" alt=""></Image>
         <div className="absolute inset-16 m-auto bg-white rounded-lg w-3/4 grid lg:grid-cols-2 ">
           <div className=" relative">
             <div className="relative w-[100%] z-10 h-[100%] bg-no-repeat rounded-lg bg-cover bg-[url('/photos/logo.png')]"></div>
@@ -103,6 +103,7 @@ const Login = () => {
                       src={"/photos/google.svg"}
                       width="20"
                       height="20"
+                      alt=""
                     ></Image>
                     <button type="button">Sign in with Google </button>
                   </div>
@@ -111,6 +112,7 @@ const Login = () => {
                       src={"/photos/github.svg"}
                       width="20"
                       height="20"
+                      alt=""
                     ></Image>
                     <button
                       type="button"
